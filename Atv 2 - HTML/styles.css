@@ -1,0 +1,88 @@
+html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-family: sans-serif;
+}
+
+body {
+    line-height: 1;
+}
+
+.table{
+    margin: 0;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.nome{
+    width: 200px;
+}
+.email{
+    width: 400px;
+}
+
+.title{
+    
+    top: -15%;
+    left: 35%;
+    font-size: 20px;
+    position: absolute;
+}
+
+.mod-1{
+    background-color: rgb(128, 211, 211);
+}
+
+.mod-2{
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: rgb(191, 233, 233);
+}
+
+.mod-1:hover{
+    background-color: rgb(245, 254, 255);
+}
+
+.mod-1:hover .fa-lock, .mod-2:hover .fa-lock{
+    color: red;
+}
+
+.mod-1:hover .fa-lock-open, .mod-2:hover .fa-lock-open{
+    color: green;
+}
+.mod-1:hover .atv, .mod-2:hover .atv{
+    color: green;
+}
+.mod-1:hover .block, .mod-2:hover .block{
+    color: red;
+}
+
+.mod-2:hover{
+    background-color: rgb(245, 254, 255);
+
+}
+
+.lock{
+    text-align: center;
+    width: 100px;
+}
+
+.check{
+    text-align: center;
+    width: 100px;
+}
+
+.block, .atv{
+    width: 120px;
+}
+
+
+
